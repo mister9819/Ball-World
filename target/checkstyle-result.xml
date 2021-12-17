@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\adapter\DispatchAdapter.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\controller\BallWorldController.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\APaintObject.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\Ball.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\Image.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\IObjectFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\NullObject.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\ball\ObjectFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\BallWorldStore.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\cmd\CommandFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\cmd\ICmdFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\cmd\IObjCmd.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\cmd\SwitchObjCmd.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\cmd\UpdateObjCmd.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\collision\ColorInfectorStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\collision\DefaultInteractionStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\collision\DestroyerStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\collision\SelfDestructStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\collision\SuperColorInfectorStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\CollisionStrategyFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\BlinkingStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\ColorChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\ColorSizeChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\ColorSizeVelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\ColorVelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\NullStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\SizeChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\SizeVelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\common\VelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\ICollisionStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\IStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\IStrategyFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\IUpdateStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\BounceMovementSizeChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\BounceMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\BounceMovementVelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\CompositeMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\EllipseMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\HorizontalMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\RotateMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\VerticalMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\ZigzagMovementColorChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\ZigzagMovementStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\movement\ZigzagMovementVelocityChangeStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\SwitchStrategy.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\model\strategy\UpdateStrategyFac.java">
+</file>
+<file name="C:\Users\soham\IdeaProjects\COMP 504\hw4-mister9819\src\main\java\edu\rice\comp504\util\RandUtil.java">
+</file>
+</checkstyle>

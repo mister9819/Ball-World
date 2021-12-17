@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/view.js"></script>
+    <style>
+        button {
+            padding: 2px 20px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 0.25%;
+            cursor: pointer;
+        }
+        .btn-50 {
+            width: 49%;
+        }
+        select {
+            font-size: 1.1rem;
+        }
+        option {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+<div style="display: flex">
+    <div style="flex: 2%;"></div>
+    <div style="flex: 50%;">
+        <canvas width="800" height="800" style="border: 1px solid #000000; "></canvas>
+    </div>
+    <div style="flex: 50%;">
+        <div style="border: 1px black solid; padding: 5px;">
+            <span style="font-size: 1.4rem;">Play with different balls and fish section</span>
+            <br>
+            <select style="width: 49.5%" name="movement" id="movement">
+                <option value="verhor">1. Straight</option>
+                <option value="rotate">2. Rotate</option>
+                <option value="zigzag">3. Zigzag</option>
+                <option value="bounce">4. Bounce</option>
+                <option value="sizechange">5. Breathing</option>
+                <option value="ellipse">6. Ellipse</option>
+                <option value="velchange">7. SlowFast</option>
+                <option value="sizevelchange">8. SlowFast Breathing</option>
+                <option value="bouncevel">9. Bounce SlowFast</option>
+                <option value="bouncesize">10. Bounce Breathing</option>
+                <option value="zigzagvel">11. Zigzag SlowFast</option>
+                <option value="zigzagcolor">12. Zigzag Disco*</option>
+                <option value="blinking">13. Blinking*</option>
+                <option value="colorchange">14. Disco*</option>
+                <option value="colorsizechange">15. Breathing Disco*</option>
+                <option value="colorvelchange">16. SlowFast Disco*</option>
+                <option value="colorsizevelchange">17. SlowFast Breathing Disco*</option>
+            </select>
+            <select style="width: 49.5%" name="collision" id="collision">
+                <option value="default">1. Normal Collision</option>
+                <option value="sizechange">2. Size Change</option>
+                <option value="colorchange">3. Color Change</option>
+                <option value="velchange">4. Velocity Change</option>
+                <option value="colorsizechange">5. Color + Size Change</option>
+                <option value="colorvelchange">6. Color + Velocity Change</option>
+                <option value="sizevelchange">7. Size + Velocity Change</option>
+                <option value="colorsizevelchange">8. Color + Size + Velocity Change</option>
+                <option value="destroyer">9. Destroyer</option>
+                <option value="selfdestruct">10. Self Destruct</option>
+                <option value="colorinfector">11. Color Infector</option>
+                <option value="blinking">12. Disappear and Reappear</option>
+                <option value="supercolorinfector">13. Super Color Infector</option>
+            </select>
+            <br>
+            <button class="btn-50" id="btn-load-ball">Make Ball</button>
+            <button class="btn-50" id="btn-load-image">Make Fish</button>
+            <br>
+            <button class="btn-50" id="btn-load-sball">Make Switch Ball</button>
+            <button class="btn-50" id="btn-load-sfish">Make Switch Fish</button>
+            <hr>
+            <span style="font-size: 1.4rem;">Switch section</span>
+            <br>
+            <div style="width: 49.5%; display: inline-block">
+                <label for="movementFrom">From:</label>
+                <select name="movement" id="movementFrom">
+                    <option value="verhor">1. Straight</option>
+                    <option value="rotate">2. Rotate</option>
+                    <option value="zigzag">3. Zigzag</option>
+                    <option value="bounce">4. Bounce</option>
+                    <option value="sizechange">5. Breathing</option>
+                    <option value="ellipse">6. Ellipse</option>
+                    <option value="velchange">7. SlowFast</option>
+                    <option value="sizevelchange">8. SlowFast Breathing</option>
+                    <option value="bouncevel">9. Bounce SlowFast</option>
+                    <option value="bouncesize">10. Bounce Breathing</option>
+                    <option value="zigzagvel">11. Zigzag SlowFast</option>
+                    <option value="zigzagcolor">12. Zigzag Disco*</option>
+                    <option value="blinking">13. Blinking*</option>
+                    <option value="colorchange">14. Disco*</option>
+                    <option value="colorsizechange">15. Breathing Disco*</option>
+                    <option value="colorvelchange">16. SlowFast Disco*</option>
+                    <option value="colorsizevelchange">17. SlowFast Breathing Disco*</option>
+                </select>
+            </div>
+            <div style="width: 49.5%; display: inline-block">
+                <label for="movementTo">To:</label>
+                <select name="movement" id="movementTo">
+                    <option value="verhor">1. Straight</option>
+                    <option value="rotate">2. Rotate</option>
+                    <option value="zigzag">3. Zigzag</option>
+                    <option value="bounce">4. Bounce</option>
+                    <option value="sizechange">5. Breathing</option>
+                    <option value="ellipse">6. Ellipse</option>
+                    <option value="velchange">7. SlowFast</option>
+                    <option value="sizevelchange">8. SlowFast Breathing</option>
+                    <option value="bouncevel">9. Bounce SlowFast</option>
+                    <option value="bouncesize">10. Bounce Breathing</option>
+                    <option value="zigzagvel">11. Zigzag SlowFast</option>
+                    <option value="zigzagcolor">12. Zigzag Disco*</option>
+                    <option value="blinking">13. Blinking*</option>
+                    <option value="colorchange">14. Disco*</option>
+                    <option value="colorsizechange">15. Breathing Disco*</option>
+                    <option value="colorvelchange">16. SlowFast Disco*</option>
+                    <option value="colorsizevelchange">17. SlowFast Breathing Disco*</option>
+                </select>
+            </div>
+            <button style="width: 99%" id="btn-switch">Switch Strategy</button>
+            <hr>
+            <span style="font-size: 1.4rem;">Remove section</span>
+            <br>
+            <select style="width: 49.5%" name="movement" id="remove">
+                <option value="verhor">1. Straight</option>
+                <option value="rotate">2. Rotate</option>
+                <option value="zigzag">3. Zigzag</option>
+                <option value="bounce">4. Bounce</option>
+                <option value="sizechange">5. Breathing</option>
+                <option value="ellipse">6. Ellipse</option>
+                <option value="velchange">7. SlowFast</option>
+                <option value="sizevelchange">8. SlowFast Breathing</option>
+                <option value="bouncevel">9. Bounce SlowFast</option>
+                <option value="bouncesize">10. Bounce Breathing</option>
+                <option value="zigzagvel">11. Zigzag SlowFast</option>
+                <option value="zigzagcolor">12. Zigzag Disco*</option>
+                <option value="blinking">13. Blinking*</option>
+                <option value="colorchange">14. Disco*</option>
+                <option value="colorsizechange">15. Breathing Disco*</option>
+                <option value="colorvelchange">16. SlowFast Disco*</option>
+                <option value="colorsizevelchange">17. SlowFast Breathing Disco*</option>
+            </select>
+            <button class="btn-50" id="btn-remove">Remove subset</button>
+            <button style="width: 99%" id="btn-clear">Clear</button>
+        </div>
+        <div style="font-size: 1.3rem; margin-top: 19px; border: 1px black solid; padding: 5px;">
+            • First dropdown is to choose movement of object.
+            <br>
+            • Second dropdown is to choose what happens when the particular ball collides with another ball.
+            <br>
+            • Make Ball - creates a ball with chosen movement and interaction.
+            <br>
+            • Make Fish - creates a fish with chosen movement behavior.
+            <br>
+            • Make Switch Ball - Creates a ball whose strategy can be switched.
+            <br>
+            • Make Switch Fish - Creates a fish whose strategy can be switched.
+            <hr>
+            • First dropdown is to choose from which movement of switchable object.
+            <br>
+            • Second dropdown is to choose to which movement of switchable object.
+            <br>
+            • Switch Strategy - Switches strategy of <strong>Switcher objects</strong> like switch ball and switch fish.
+            <hr>
+            • Dropdown is to choose from which subset of movement to remove.
+            <br>
+            • Remove subset - Removes the necessary objects.
+            <br>
+            • Clear - Removes all objects.
+            <hr>
+            • Note: * after a movement strategy means it's ball exclusive. (Will only consider non color changing parts for fish.)
+        </div>
+    </div>
+    <div style="flex: 2%;"></div>
+</div>
+</body>
+</html>

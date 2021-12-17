@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.rice.comp504.model.ball.Ball</OriginalElement>
+  <nodes>
+    <node x="1954.1706286733563" y="353.0">edu.rice.comp504.model.strategy.ICollisionStrategy</node>
+    <node x="3958.670628673356" y="1183.0">edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy</node>
+    <node x="736.8517658480112" y="708.0">edu.rice.comp504.model.strategy.collision.ColorInfectorStrategy</node>
+    <node x="4318.833333333334" y="248.0">edu.rice.comp504.model.strategy.movement.VerticalMovementStrategy</node>
+    <node x="2871.414265848011" y="708.0">edu.rice.comp504.model.strategy.common.VelocityChangeStrategy</node>
+    <node x="1076.5833333333335" y="1573.0">edu.rice.comp504.model.cmd.UpdateBallCmd</node>
+    <node x="587.75" y="1708.0">edu.rice.comp504.model.ball.ObjectFac</node>
+    <node x="1711.1706286733563" y="1183.0">edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy</node>
+    <node x="2047.8581286733563" y="1183.0">edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy</node>
+    <node x="1464.2083333333335" y="1573.0">edu.rice.comp504.model.cmd.ICmdFac</node>
+    <node x="3622.670628673356" y="1183.0">edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy</node>
+    <node x="1935.6706286733563" y="0.0">edu.rice.comp504.model.strategy.IStrategy</node>
+    <node x="735.0833333333335" y="1573.0">edu.rice.comp504.model.ball.Image</node>
+    <node x="4079.833333333334" y="708.0">edu.rice.comp504.model.strategy.movement.BounceMovementStrategy</node>
+    <node x="909.3333333333335" y="1458.0">edu.rice.comp504.model.strategy.CollisionStrategyFac</node>
+    <node x="1355.4583333333335" y="1708.0">edu.rice.comp504.model.cmd.CommandFac</node>
+    <node x="4815.833333333334" y="708.0">edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy</node>
+    <node x="31.5" y="1183.0">edu.rice.comp504.model.strategy.collision.DestroyerStrategy</node>
+    <node x="1994.351765848011" y="708.0">edu.rice.comp504.model.strategy.common.ColorChangeStrategy</node>
+    <node x="4557.233128673357" y="1183.0">edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy</node>
+    <node x="2551.108128673356" y="1183.0">edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy</node>
+    <node x="765.25" y="1843.0">edu.rice.comp504.model.BallWorldStore</node>
+    <node x="2200.351765848011" y="708.0">edu.rice.comp504.model.strategy.common.BlinkingStrategy</node>
+    <node x="2652.351765848011" y="353.0">edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy</node>
+    <node x="944.8517658480109" y="708.0">edu.rice.comp504.model.strategy.collision.DefaultInteractionStrategy</node>
+    <node x="372.08729534002305" y="708.0">edu.rice.comp504.model.strategy.common.NullStrategy</node>
+    <node x="4275.670628673357" y="1183.0">edu.rice.comp504.model.strategy.movement.RotateMovementStrategy</node>
+    <node x="975.3333333333335" y="1183.0">edu.rice.comp504.model.strategy.IStrategyFac</node>
+    <node x="287.5" y="1183.0">edu.rice.comp504.model.strategy.collision.SelfDestructStrategy</node>
+    <node x="1220.264470507988" y="1458.0">edu.rice.comp504.model.strategy.UpdateStrategyFac</node>
+    <node x="1410.264470507988" y="1458.0">edu.rice.comp504.model.cmd.IBallCmd</node>
+    <node x="1653.851765848011" y="708.0">edu.rice.comp504.model.strategy.collision.SuperColorInfectorStrategy</node>
+    <node x="1326.2083333333335" y="1573.0">edu.rice.comp504.model.ball.IObjectFac</node>
+    <node x="2488.351765848011" y="708.0">edu.rice.comp504.model.strategy.common.SizeChangeStrategy</node>
+    <node x="2278.858128673356" y="1183.0">edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy</node>
+    <node x="90.01447050798788" y="1938.0">edu.rice.comp504.model.ball.Ball</node>
+    <node x="2769.2644705079883" y="2031.0">edu.rice.comp504.model.ball.APaintObject</node>
+    <node x="3149.289265848011" y="123.0">edu.rice.comp504.model.strategy.IUpdateStrategy</node>
+    <node x="510.3333333333335" y="1573.0">edu.rice.comp504.model.ball.NullObject</node>
+    <node x="4556.833333333334" y="248.0">edu.rice.comp504.model.strategy.movement.HorizontalMovementStrategy</node>
+    <node x="1612.7083333333335" y="1573.0">edu.rice.comp504.model.cmd.SwitchBallCmd</node>
+    <node x="4868.233128673357" y="1183.0">edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1286.0" />
+      <point x="2153.358128673356" y="1286.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Ball" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="18.0" y="-15.5" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="166.0" y="1896.0" />
+      <point x="207.0" y="1896.0" />
+      <point x="207.0" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.IStrategyFac" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="1039.3333333333335" y="1011.0" />
+      <point x="1237.117062867327" y="1011.0" />
+      <point x="1237.117062867327" y="456.0" />
+      <point x="1321.5833333333335" y="456.0" />
+      <point x="1321.5833333333335" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.strategy.common.NullStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="114.0" y="1161.0" />
+      <point x="92.0" y="1161.0" />
+      <point x="92.0" y="941.0" />
+      <point x="436.08729534002305" y="941.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.BlinkingStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="38.25" y="-15.5" />
+      <point x="2315.101765848011" y="656.0" />
+      <point x="2549.351765848011" y="656.0" />
+      <point x="2549.351765848011" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="26.375" y="-15.5" />
+      <point x="2179.733128673356" y="1121.0" />
+      <point x="2686.670628673356" y="1121.0" />
+      <point x="2686.670628673356" y="871.0" />
+      <point x="2087.351765848011" y="871.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="114.0" y="1436.0" />
+      <point x="67.5" y="1436.0" />
+      <point x="67.49999999999955" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="CREATE">
+      <point x="39.0" y="-15.5" />
+      <point x="5063.233128673357" y="1001.0" />
+      <point x="5529.645833333334" y="1001.0" />
+      <point x="5529.645833333334" y="216.0" />
+      <point x="4855.108128673357" y="216.0" />
+      <point x="4855.108128673357" y="186.0" />
+      <point x="3245.539265848011" y="186.0" />
+      <point x="19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="50.25" y="-15.5" />
+      <point x="3022.164265848011" y="676.0" />
+      <point x="3090.289265848011" y="676.0" />
+      <point x="3090.289265848011" y="406.0" />
+      <point x="3079.789265848011" y="406.0" />
+      <point x="3079.789265848011" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.cmd.CommandFac" relationship="TO_ONE">
+      <point x="48.33333333333326" y="-15.5" />
+      <point x="886.0833333333333" y="1821.0" />
+      <point x="1434.3478038413216" y="1821.0" />
+      <point x="1434.3478038413216" y="1801.0" />
+      <point x="1458.9583333333335" y="1801.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="26.375" y="-15.5" />
+      <point x="2179.733128673356" y="1121.0" />
+      <point x="2686.670628673356" y="1121.0" />
+      <point x="2686.670628673356" y="861.0" />
+      <point x="2576.351765848011" y="861.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1316.0" />
+      <point x="2391.858128673356" y="1316.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="55.0" y="-15.5" />
+      <point x="169.0" y="931.0" />
+      <point x="103.0" y="931.0" />
+      <point x="103.0" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1256.0" />
+      <point x="377.0" y="1256.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1296.0" />
+      <point x="2153.358128673356" y="1296.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="-37.66666666666674" y="-15.5" />
+      <point x="606.5833333333333" y="1686.0" />
+      <point x="648.3333333333335" y="1686.0" />
+      <point x="648.3333333333335" y="1626.0" />
+      <point x="637.8333333333335" y="1626.0" />
+      <point x="637.8333333333335" y="981.0" />
+      <point x="726.3517658480112" y="981.0" />
+      <point x="726.3517658480112" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.UpdateBallCmd" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="-37.25" y="-15.5" />
+      <point x="1113.8333333333335" y="1551.0" />
+      <point x="1124.8333333333335" y="1551.0" />
+      <point x="1124.8333333333335" y="1031.0" />
+      <point x="1332.5833333333335" y="1031.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.IStrategyFac" relationship="REALIZATION">
+      <point x="-42.5" y="-15.5" />
+      <point x="1262.764470507988" y="1266.0" />
+      <point x="1039.3333333333335" y="1266.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.NullStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="436.08729534002305" y="1151.0" />
+      <point x="21.0" y="1151.0" />
+      <point x="20.999999999999545" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1306.0" />
+      <point x="2391.858128673356" y="1306.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.ICollisionStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2034.6706286733563" y="62.0" />
+      <point x="2002.5456286733563" y="62.0" />
+      <point x="13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.ColorInfectorStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="TO_ONE">
+      <point x="46.75" y="-15.5" />
+      <point x="877.1017658480112" y="606.0" />
+      <point x="2044.6706286733563" y="606.0" />
+      <point x="2044.6706286733563" y="416.0" />
+      <point x="2088.337295340023" y="416.0" />
+      <point x="53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" relationship="DEPENDENCY">
+      <point x="-117.0" y="-15.5" />
+      <point x="4907.233128673357" y="1161.0" />
+      <point x="4704.264470507987" y="1161.0" />
+      <point x="4704.264470507987" y="901.0" />
+      <point x="4922.833333333334" y="901.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="118.5" y="-15.5" />
+      <point x="3899.170628673356" y="881.0" />
+      <point x="4805.333333333334" y="881.0" />
+      <point x="4805.333333333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-36.375" y="-15.5" />
+      <point x="4666.358128673357" y="961.0" />
+      <point x="5342.708333333334" y="961.0" />
+      <point x="5342.708333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.NullStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="42.66666666666697" y="-15.5" />
+      <point x="478.75396200669" y="686.0" />
+      <point x="447.08729534002305" y="686.0" />
+      <point x="447.08729534002305" y="466.0" />
+      <point x="2034.6706286733563" y="466.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.BounceMovementStrategy" relationship="DEPENDENCY">
+      <point x="-118.5" y="-15.5" />
+      <point x="3662.170628673356" y="1161.0" />
+      <point x="4083.4519705079883" y="1161.0" />
+      <point x="4083.4519705079883" y="861.0" />
+      <point x="4188.833333333334" y="861.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="CREATE">
+      <point x="88.125" y="-15.5" />
+      <point x="2756.733128673356" y="991.0" />
+      <point x="3359.1394705079883" y="991.0" />
+      <point x="3359.1394705079883" y="82.0" />
+      <point x="3021.983128673356" y="82.0" />
+      <point x="3021.983128673356" y="52.0" />
+      <point x="2029.2956286733563" y="52.0" />
+      <point x="40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="109.125" y="-15.5" />
+      <point x="4811.858128673357" y="981.0" />
+      <point x="5364.708333333334" y="981.0" />
+      <point x="5364.708333333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.VerticalMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-54.5" y="-15.5" />
+      <point x="4373.333333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="-48.33333333333326" y="-15.5" />
+      <point x="789.4166666666667" y="1821.0" />
+      <point x="558.7083333333335" y="1821.0" />
+      <point x="558.7083333333335" y="1771.0" />
+      <point x="499.8333333333335" y="1771.0" />
+      <point x="499.8333333333335" y="971.0" />
+      <point x="646.3517658480112" y="971.0" />
+      <point x="646.3517658480112" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-37.125" y="-15.5" />
+      <point x="4070.045628673356" y="911.0" />
+      <point x="5040.333333333334" y="911.0" />
+      <point x="5040.333333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.strategy.UpdateStrategyFac" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="837.75" y="1821.0" />
+      <point x="875.875" y="1821.0" />
+      <point x="875.875" y="1811.0" />
+      <point x="1304.7083333333335" y="1811.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-62.0" y="-15.5" />
+      <point x="2025.351765848011" y="486.0" />
+      <point x="2505.351765848011" y="486.0" />
+      <point x="2505.351765848011" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="28.25" y="-15.5" />
+      <point x="2420.108128673356" y="1101.0" />
+      <point x="2940.733128673356" y="1101.0" />
+      <point x="2940.733128673356" y="841.0" />
+      <point x="2576.351765848011" y="841.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.strategy.movement.BounceMovementStrategy" relationship="DEPENDENCY">
+      <point x="-109.125" y="-15.5" />
+      <point x="4593.608128673357" y="1161.0" />
+      <point x="4574.005536314018" y="1161.0" />
+      <point x="4574.005536314018" y="771.0" />
+      <point x="4188.833333333334" y="771.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="377.0" y="921.0" />
+      <point x="289.75" y="921.0" />
+      <point x="289.75" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1338.0833333333335" y="1256.0" />
+      <point x="1338.0833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="111.375" y="-15.5" />
+      <point x="4218.545628673356" y="931.0" />
+      <point x="5062.333333333334" y="931.0" />
+      <point x="5062.333333333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.VerticalMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="54.5" y="-15.5" />
+      <point x="4482.333333333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.BallWorldStore" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2087.351765848011" y="1071.0" />
+      <point x="835.5833333333335" y="1071.0" />
+      <point x="835.5833333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1821.0" />
+      <point x="789.4166666666667" y="1821.0" />
+      <point x="-48.33333333333326" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="4922.833333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-29.375" y="-15.5" />
+      <point x="2639.233128673356" y="1091.0" />
+      <point x="3074.664265848011" y="1091.0" />
+      <point x="3074.664265848011" y="971.0" />
+      <point x="3294.7644705079883" y="971.0" />
+      <point x="3294.7644705079883" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.CommandFac" target="edu.rice.comp504.model.cmd.IBallCmd" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="1424.4583333333335" y="1656.0" />
+      <point x="1453.7083333333335" y="1656.0" />
+      <point x="1453.7083333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1521.0" />
+      <point x="1489.764470507988" y="1521.0" />
+      <point x="26.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="50.25" y="-15.5" />
+      <point x="3022.164265848011" y="676.0" />
+      <point x="3090.289265848011" y="676.0" />
+      <point x="3090.289265848011" y="416.0" />
+      <point x="2773.351765848011" y="416.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Ball" target="edu.rice.comp504.model.BallWorldStore" relationship="DEPENDENCY">
+      <point x="18.0" y="-15.5" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="166.0" y="1906.0" />
+      <point x="837.75" y="1906.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-32.5" y="-15.5" />
+      <point x="1808.6706286733563" y="1161.0" />
+      <point x="2310.920628673356" y="1161.0" />
+      <point x="2310.920628673356" y="891.0" />
+      <point x="1980.351765848011" y="891.0" />
+      <point x="1980.351765848011" y="476.0" />
+      <point x="2494.351765848011" y="476.0" />
+      <point x="2494.351765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.IObjectFac" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="29.25" y="15.5" />
+      <point x="1413.9583333333335" y="1646.0" />
+      <point x="1591.7083333333335" y="1646.0" />
+      <point x="1591.7083333333335" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.strategy.UpdateStrategyFac" relationship="DEPENDENCY">
+      <point x="-37.66666666666674" y="-15.5" />
+      <point x="606.5833333333333" y="1686.0" />
+      <point x="648.3333333333335" y="1686.0" />
+      <point x="648.3333333333335" y="1626.0" />
+      <point x="658.8333333333335" y="1626.0" />
+      <point x="658.8333333333335" y="1511.0" />
+      <point x="1248.5978038413214" y="1511.0" />
+      <point x="-56.66666666666666" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1573.0833333333335" y="1256.0" />
+      <point x="1573.0833333333335" y="1071.0" />
+      <point x="2087.351765848011" y="1071.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-26.375" y="-15.5" />
+      <point x="2126.983128673356" y="1141.0" />
+      <point x="2538.920628673356" y="1141.0" />
+      <point x="2538.920628673356" y="911.0" />
+      <point x="2477.851765848011" y="911.0" />
+      <point x="2477.851765848011" y="516.0" />
+      <point x="2620.351765848011" y="516.0" />
+      <point x="2620.351765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="1841.1706286733563" y="1236.0" />
+      <point x="2133.2083333333335" y="1236.0" />
+      <point x="2133.2083333333335" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1376.0" />
+      <point x="3780.670628673356" y="1376.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1700.6706286733563" y="1256.0" />
+      <point x="1700.6706286733563" y="1051.0" />
+      <point x="2576.351765848011" y="1051.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="CREATE">
+      <point x="79.125" y="-15.5" />
+      <point x="2232.483128673356" y="931.0" />
+      <point x="2746.101765848011" y="931.0" />
+      <point x="2746.101765848011" y="556.0" />
+      <point x="2904.851765848011" y="556.0" />
+      <point x="2904.851765848011" y="82.0" />
+      <point x="3021.983128673356" y="82.0" />
+      <point x="3021.983128673356" y="52.0" />
+      <point x="2029.2956286733563" y="52.0" />
+      <point x="40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="CREATE">
+      <point x="97.5" y="-15.5" />
+      <point x="1938.6706286733563" y="901.0" />
+      <point x="2455.851765848011" y="901.0" />
+      <point x="2455.851765848011" y="496.0" />
+      <point x="2570.851765848011" y="496.0" />
+      <point x="2570.851765848011" y="82.0" />
+      <point x="3021.983128673356" y="82.0" />
+      <point x="3021.983128673356" y="52.0" />
+      <point x="2029.2956286733563" y="52.0" />
+      <point x="40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1041.0" />
+      <point x="2971.914265848011" y="1041.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="32.5" y="-15.5" />
+      <point x="1873.6706286733563" y="1151.0" />
+      <point x="2367.670628673356" y="1151.0" />
+      <point x="2367.670628673356" y="921.0" />
+      <point x="2576.351765848011" y="921.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="32.5" y="-15.5" />
+      <point x="1873.6706286733563" y="1151.0" />
+      <point x="2367.670628673356" y="1151.0" />
+      <point x="2367.670628673356" y="881.0" />
+      <point x="2087.351765848011" y="881.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-44.0" y="-15.5" />
+      <point x="2532.351765848011" y="646.0" />
+      <point x="2630.851765848011" y="646.0" />
+      <point x="2630.851765848011" y="436.0" />
+      <point x="2034.6706286733563" y="436.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-117.0" y="-15.5" />
+      <point x="4907.233128673357" y="1161.0" />
+      <point x="4704.264470507987" y="1161.0" />
+      <point x="4704.264470507987" y="761.0" />
+      <point x="2971.914265848011" y="761.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.RotateMovementStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1396.0" />
+      <point x="4382.670628673357" y="1396.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="3780.670628673356" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.ball.Image" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="644.25" y="1676.0" />
+      <point x="669.3333333333335" y="1676.0" />
+      <point x="669.3333333333335" y="1636.0" />
+      <point x="780.0833333333335" y="1636.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DefaultInteractionStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-54.0" y="-15.5" />
+      <point x="998.8517658480109" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.UpdateBallCmd" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="-37.25" y="15.5" />
+      <point x="1113.8333333333335" y="1636.0" />
+      <point x="800.0833333333335" y="1636.0" />
+      <point x="800.0833333333335" y="1666.0" />
+      <point x="1591.7083333333335" y="1666.0" />
+      <point x="1591.7083333333335" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.BlinkingStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-38.25" y="-15.5" />
+      <point x="2238.601765848011" y="666.0" />
+      <point x="2538.351765848011" y="666.0" />
+      <point x="2538.351765848011" y="446.0" />
+      <point x="2034.6706286733563" y="446.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.NullStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="0.0" y="-15.5" />
+      <point x="436.08729534002305" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-90.75" y="-15.5" />
+      <point x="2682.601765848011" y="321.0" />
+      <point x="2781.601765848011" y="321.0" />
+      <point x="2781.601765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.HorizontalMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-59.5" y="-15.5" />
+      <point x="4616.333333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.NullObject" target="edu.rice.comp504.model.strategy.CollisionStrategyFac" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="568.8333333333335" y="1551.0" />
+      <point x="648.3333333333335" y="1551.0" />
+      <point x="648.3333333333335" y="1521.0" />
+      <point x="939.0000000000002" y="1521.0" />
+      <point x="-59.333333333333336" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-97.5" y="-15.5" />
+      <point x="1743.6706286733563" y="1011.0" />
+      <point x="1909.101765848011" y="1011.0" />
+      <point x="1909.101765848011" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.VerticalMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4427.833333333334" y="311.0" />
+      <point x="5637.895833333334" y="311.0" />
+      <point x="5637.895833333334" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Image" target="edu.rice.comp504.model.BallWorldStore" relationship="DEPENDENCY">
+      <point x="30.0" y="15.5" />
+      <point x="810.0833333333335" y="1646.0" />
+      <point x="805.5833333333335" y="1646.0" />
+      <point x="805.5833333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1821.0" />
+      <point x="789.4166666666667" y="1821.0" />
+      <point x="-48.33333333333326" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2087.351765848011" y="686.0" />
+      <point x="2516.351765848011" y="686.0" />
+      <point x="2516.351765848011" y="456.0" />
+      <point x="2034.6706286733563" y="456.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4107.170628673356" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DefaultInteractionStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="1052.851765848011" y="991.0" />
+      <point x="477.0" y="991.0" />
+      <point x="476.99999999999955" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Image" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="780.0833333333335" y="971.0" />
+      <point x="934.3517658480112" y="971.0" />
+      <point x="934.3517658480112" y="676.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="-53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2087.351765848011" y="1071.0" />
+      <point x="3189.108128673356" y="1071.0" />
+      <point x="3189.108128673356" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2576.351765848011" y="1051.0" />
+      <point x="4500.170628673357" y="1051.0" />
+      <point x="4500.170628673357" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1700.6706286733563" y="1256.0" />
+      <point x="1700.6706286733563" y="1041.0" />
+      <point x="2971.914265848011" y="1041.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-32.5" y="-15.5" />
+      <point x="1808.6706286733563" y="1161.0" />
+      <point x="2310.920628673356" y="1161.0" />
+      <point x="2310.920628673356" y="891.0" />
+      <point x="1980.351765848011" y="891.0" />
+      <point x="1980.351765848011" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1426.0" />
+      <point x="5024.233128673357" y="1426.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1700.6706286733563" y="1256.0" />
+      <point x="1700.6706286733563" y="1021.0" />
+      <point x="4922.833333333334" y="1021.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Image" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="780.0833333333335" y="981.0" />
+      <point x="934.3517658480112" y="981.0" />
+      <point x="934.3517658480112" y="456.0" />
+      <point x="1086.1017658480112" y="456.0" />
+      <point x="1086.1017658480112" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2087.351765848011" y="686.0" />
+      <point x="2516.351765848011" y="686.0" />
+      <point x="2516.351765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-44.0" y="-15.5" />
+      <point x="2532.351765848011" y="646.0" />
+      <point x="2630.851765848011" y="646.0" />
+      <point x="2630.851765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-39.0" y="-15.5" />
+      <point x="4985.233128673357" y="991.0" />
+      <point x="5518.645833333334" y="991.0" />
+      <point x="5518.645833333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="5024.233128673357" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="32.5" y="-15.5" />
+      <point x="1873.6706286733563" y="1151.0" />
+      <point x="2367.670628673356" y="1151.0" />
+      <point x="2367.670628673356" y="891.0" />
+      <point x="2444.851765848011" y="891.0" />
+      <point x="2444.851765848011" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.NullObject" target="edu.rice.comp504.model.strategy.UpdateStrategyFac" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="568.8333333333335" y="1551.0" />
+      <point x="648.3333333333335" y="1551.0" />
+      <point x="648.3333333333335" y="1541.0" />
+      <point x="658.8333333333335" y="1541.0" />
+      <point x="658.8333333333335" y="1511.0" />
+      <point x="1248.5978038413214" y="1511.0" />
+      <point x="-56.66666666666666" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.cmd.CommandFac" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="837.75" y="1821.0" />
+      <point x="875.875" y="1821.0" />
+      <point x="875.875" y="1811.0" />
+      <point x="1389.9583333333335" y="1811.0" />
+      <point x="-34.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1386.0" />
+      <point x="4107.170628673356" y="1386.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" relationship="DEPENDENCY">
+      <point x="35.75" y="-15.5" />
+      <point x="1719.9583333333335" y="1551.0" />
+      <point x="2502.039265848011" y="1551.0" />
+      <point x="2502.039265848011" y="1366.0" />
+      <point x="2851.108128673356" y="1366.0" />
+      <point x="2851.108128673356" y="1021.0" />
+      <point x="4922.833333333334" y="1021.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.RotateMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-53.5" y="-15.5" />
+      <point x="4329.170628673357" y="941.0" />
+      <point x="5186.395833333334" y="941.0" />
+      <point x="5186.395833333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1276.0" />
+      <point x="1841.1706286733563" y="1276.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.strategy.common.NullStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="377.0" y="951.0" />
+      <point x="436.08729534002305" y="951.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.RotateMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4382.670628673357" y="1406.0" />
+      <point x="4380.3517658480105" y="1406.0" />
+      <point x="4380.3517658480105" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-39.5" y="-15.5" />
+      <point x="3741.170628673356" y="861.0" />
+      <point x="4028.7019705079883" y="861.0" />
+      <point x="4028.7019705079883" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.HorizontalMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4675.833333333334" y="301.0" />
+      <point x="5637.895833333334" y="301.0" />
+      <point x="5637.895833333334" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="59.66666666666697" y="-15.5" />
+      <point x="436.66666666666697" y="961.0" />
+      <point x="624.8517658480112" y="961.0" />
+      <point x="624.8517658480112" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1001.0" />
+      <point x="1171.351765848011" y="1001.0" />
+      <point x="1171.351765848011" y="676.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="-53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.NullStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="-42.66666666666697" y="-15.5" />
+      <point x="393.4206286733561" y="616.0" />
+      <point x="425.08729534002305" y="616.0" />
+      <point x="425.08729534002305" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.ColorInfectorStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="830.3517658480112" y="1161.0" />
+      <point x="277.0" y="1161.0" />
+      <point x="277.0" y="1426.0" />
+      <point x="67.5" y="1426.0" />
+      <point x="67.49999999999955" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="5637.895833333334" y="616.0" />
+      <point x="5637.895833333334" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.strategy.CollisionStrategyFac" relationship="DEPENDENCY">
+      <point x="-37.66666666666674" y="-15.5" />
+      <point x="606.5833333333333" y="1686.0" />
+      <point x="648.3333333333335" y="1686.0" />
+      <point x="648.3333333333335" y="1626.0" />
+      <point x="658.8333333333335" y="1626.0" />
+      <point x="658.8333333333335" y="1531.0" />
+      <point x="648.3333333333335" y="1531.0" />
+      <point x="648.3333333333335" y="1521.0" />
+      <point x="939.0000000000002" y="1521.0" />
+      <point x="-59.333333333333336" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="-109.125" y="-15.5" />
+      <point x="4593.608128673357" y="1161.0" />
+      <point x="4574.005536314018" y="1161.0" />
+      <point x="4574.005536314018" y="781.0" />
+      <point x="2576.351765848011" y="781.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Ball" target="edu.rice.comp504.model.ball.APaintObject" relationship="GENERALIZATION">
+      <point x="-18.0" y="15.5" />
+      <point x="108.01447050798788" y="2000.0" />
+      <point x="5.0" y="2000.0" />
+      <point x="5.0" y="2010.0" />
+      <point x="2791.431137174655" y="2010.0" />
+      <point x="-44.33333333333337" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1326.0" />
+      <point x="2668.608128673356" y="1326.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.CommandFac" target="edu.rice.comp504.model.cmd.SwitchBallCmd" relationship="CREATE">
+      <point x="-46.0" y="-15.5" />
+      <point x="1378.4583333333335" y="1686.0" />
+      <point x="1337.7083333333335" y="1686.0" />
+      <point x="1337.7083333333335" y="1636.0" />
+      <point x="1648.4583333333335" y="1636.0" />
+      <point x="-35.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="29.375" y="-15.5" />
+      <point x="2697.983128673356" y="1081.0" />
+      <point x="3167.858128673356" y="1081.0" />
+      <point x="3167.858128673356" y="821.0" />
+      <point x="2087.351765848011" y="821.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="29.375" y="-15.5" />
+      <point x="2697.983128673356" y="1081.0" />
+      <point x="3167.858128673356" y="1081.0" />
+      <point x="3167.858128673356" y="981.0" />
+      <point x="3348.1394705079883" y="981.0" />
+      <point x="3348.1394705079883" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.strategy.movement.RotateMovementStrategy" relationship="DEPENDENCY">
+      <point x="35.75" y="-15.5" />
+      <point x="1719.9583333333335" y="1551.0" />
+      <point x="2502.039265848011" y="1551.0" />
+      <point x="2502.039265848011" y="1406.0" />
+      <point x="4382.670628673357" y="1406.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.collision.SuperColorInfectorStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1131.0" />
+      <point x="1765.351765848011" y="1131.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.ball.Ball" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="144.01447050798788" y="1990.0" />
+      <point x="18.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="376.99999999999955" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.UpdateBallCmd" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="DEPENDENCY">
+      <point x="-37.25" y="-15.5" />
+      <point x="1113.8333333333335" y="1021.0" />
+      <point x="1310.5833333333335" y="1021.0" />
+      <point x="1310.5833333333335" y="676.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="-53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.cmd.IBallCmd" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="1602.2083333333335" y="1990.0" />
+      <point x="1602.2083333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1521.0" />
+      <point x="1489.764470507988" y="1521.0" />
+      <point x="26.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.IBallCmd" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="26.5" y="15.5" />
+      <point x="1489.764470507988" y="1521.0" />
+      <point x="1485.4583333333335" y="1521.0" />
+      <point x="1485.4583333333335" y="1551.0" />
+      <point x="1602.2083333333335" y="1551.0" />
+      <point x="1602.2083333333335" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.BlinkingStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-38.25" y="-15.5" />
+      <point x="2238.601765848011" y="666.0" />
+      <point x="2538.351765848011" y="666.0" />
+      <point x="2538.351765848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.strategy.UpdateStrategyFac" relationship="TO_ONE">
+      <point x="48.33333333333326" y="-15.5" />
+      <point x="886.0833333333333" y="1821.0" />
+      <point x="1434.3478038413216" y="1821.0" />
+      <point x="1434.3478038413216" y="1801.0" />
+      <point x="1580.7083333333335" y="1801.0" />
+      <point x="1580.7083333333335" y="1531.0" />
+      <point x="1361.9311371746549" y="1531.0" />
+      <point x="56.66666666666663" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="114.0" y="1161.0" />
+      <point x="92.0" y="1161.0" />
+      <point x="92.0" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.ColorInfectorStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-46.75" y="-15.5" />
+      <point x="783.6017658480112" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.NullStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="868.5833333333335" y="1246.0" />
+      <point x="868.5833333333335" y="1151.0" />
+      <point x="436.08729534002305" y="1151.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.BounceMovementStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1700.6706286733563" y="1256.0" />
+      <point x="1700.6706286733563" y="1031.0" />
+      <point x="4188.833333333334" y="1031.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="35.75" y="-15.5" />
+      <point x="1719.9583333333335" y="1551.0" />
+      <point x="2502.039265848011" y="1551.0" />
+      <point x="2502.039265848011" y="1541.0" />
+      <point x="2212.5144705079883" y="1541.0" />
+      <point x="2212.5144705079883" y="1346.0" />
+      <point x="2796.608128673356" y="1346.0" />
+      <point x="2796.608128673356" y="1001.0" />
+      <point x="3370.1394705079883" y="1001.0" />
+      <point x="3370.1394705079883" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.BlinkingStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2276.851765848011" y="1061.0" />
+      <point x="3539.8180363140173" y="1061.0" />
+      <point x="3539.8180363140173" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SuperColorInfectorStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-55.75" y="-15.5" />
+      <point x="1709.601765848011" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.collision.ColorInfectorStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="868.5833333333335" y="1246.0" />
+      <point x="868.5833333333335" y="1161.0" />
+      <point x="830.3517658480112" y="1161.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SuperColorInfectorStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="TO_ONE">
+      <point x="55.75" y="-15.5" />
+      <point x="1821.101765848011" y="606.0" />
+      <point x="2044.6706286733563" y="606.0" />
+      <point x="2044.6706286733563" y="416.0" />
+      <point x="2088.337295340023" y="416.0" />
+      <point x="53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" relationship="DEPENDENCY">
+      <point x="-111.375" y="-15.5" />
+      <point x="3995.795628673356" y="1151.0" />
+      <point x="4470.451970507988" y="1151.0" />
+      <point x="4470.451970507988" y="891.0" />
+      <point x="4922.833333333334" y="891.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="28.25" y="-15.5" />
+      <point x="2420.108128673356" y="1101.0" />
+      <point x="2940.733128673356" y="1101.0" />
+      <point x="2940.733128673356" y="831.0" />
+      <point x="2833.414265848011" y="831.0" />
+      <point x="2833.414265848011" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="44.0" y="-15.5" />
+      <point x="2620.351765848011" y="636.0" />
+      <point x="2641.851765848011" y="636.0" />
+      <point x="2641.851765848011" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="62.0" y="-15.5" />
+      <point x="2149.351765848011" y="676.0" />
+      <point x="2527.351765848011" y="676.0" />
+      <point x="2527.351765848011" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-59.66666666666697" y="-15.5" />
+      <point x="317.33333333333303" y="931.0" />
+      <point x="229.0" y="931.0" />
+      <point x="229.0" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.ball.ObjectFac" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="837.75" y="1821.0" />
+      <point x="875.875" y="1821.0" />
+      <point x="875.875" y="1791.0" />
+      <point x="616.0" y="1791.0" />
+      <point x="-28.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="35.75" y="15.5" />
+      <point x="1719.9583333333335" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-88.125" y="-15.5" />
+      <point x="2580.483128673356" y="961.0" />
+      <point x="2860.914265848011" y="961.0" />
+      <point x="2860.914265848011" y="596.0" />
+      <point x="2999.414265848011" y="596.0" />
+      <point x="2999.414265848011" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="CREATE">
+      <point x="36.375" y="-15.5" />
+      <point x="4739.108128673357" y="971.0" />
+      <point x="5353.708333333334" y="971.0" />
+      <point x="5353.708333333334" y="216.0" />
+      <point x="4855.108128673357" y="216.0" />
+      <point x="4855.108128673357" y="186.0" />
+      <point x="3245.539265848011" y="186.0" />
+      <point x="19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SuperColorInfectorStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="1765.351765848011" y="1131.0" />
+      <point x="2540.608128673356" y="1131.0" />
+      <point x="2540.608128673356" y="1256.0" />
+      <point x="2728.608128673356" y="1256.0" />
+      <point x="2728.608128673356" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.cmd.IBallCmd" relationship="REALIZATION">
+      <point x="-35.75" y="-15.5" />
+      <point x="1648.4583333333335" y="1541.0" />
+      <point x="1365.2083333333335" y="1541.0" />
+      <point x="1365.2083333333335" y="1521.0" />
+      <point x="1436.764470507988" y="1521.0" />
+      <point x="-26.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="26.375" y="-15.5" />
+      <point x="2179.733128673356" y="1121.0" />
+      <point x="2686.670628673356" y="1121.0" />
+      <point x="2686.670628673356" y="851.0" />
+      <point x="2674.851765848011" y="851.0" />
+      <point x="2674.851765848011" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Ball" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="DEPENDENCY">
+      <point x="18.0" y="-15.5" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="166.0" y="1896.0" />
+      <point x="218.0" y="1896.0" />
+      <point x="218.0" y="676.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="-53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.UpdateBallCmd" target="edu.rice.comp504.model.ball.Ball" relationship="DEPENDENCY">
+      <point x="-37.25" y="15.5" />
+      <point x="1113.8333333333335" y="1636.0" />
+      <point x="800.0833333333335" y="1636.0" />
+      <point x="800.0833333333335" y="1666.0" />
+      <point x="218.0" y="1666.0" />
+      <point x="218.0" y="1896.0" />
+      <point x="166.0" y="1896.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="18.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.ball.NullObject" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="644.25" y="1676.0" />
+      <point x="669.3333333333335" y="1676.0" />
+      <point x="669.3333333333335" y="1636.0" />
+      <point x="607.8333333333335" y="1636.0" />
+      <point x="39.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-26.375" y="-15.5" />
+      <point x="2126.983128673356" y="1141.0" />
+      <point x="2538.920628673356" y="1141.0" />
+      <point x="2538.920628673356" y="911.0" />
+      <point x="2477.851765848011" y="911.0" />
+      <point x="2477.851765848011" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.NullObject" target="edu.rice.comp504.model.BallWorldStore" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="568.8333333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1771.0" />
+      <point x="558.7083333333335" y="1821.0" />
+      <point x="789.4166666666667" y="1821.0" />
+      <point x="-48.33333333333326" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-28.25" y="-15.5" />
+      <point x="2363.608128673356" y="1111.0" />
+      <point x="2857.733128673356" y="1111.0" />
+      <point x="2857.733128673356" y="941.0" />
+      <point x="2796.664265848011" y="941.0" />
+      <point x="2796.664265848011" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="CREATE">
+      <point x="37.125" y="-15.5" />
+      <point x="4144.295628673356" y="921.0" />
+      <point x="5051.333333333334" y="921.0" />
+      <point x="5051.333333333334" y="216.0" />
+      <point x="4855.108128673357" y="216.0" />
+      <point x="4855.108128673357" y="186.0" />
+      <point x="3245.539265848011" y="186.0" />
+      <point x="19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.SelfDestructStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="377.0" y="921.0" />
+      <point x="289.75" y="921.0" />
+      <point x="289.75" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.ball.IObjectFac" relationship="REALIZATION">
+      <point x="37.66666666666674" y="-15.5" />
+      <point x="681.9166666666667" y="1656.0" />
+      <point x="1355.4583333333335" y="1656.0" />
+      <point x="-29.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1338.0833333333335" y="1256.0" />
+      <point x="1338.0833333333335" y="1001.0" />
+      <point x="1887.351765848011" y="1001.0" />
+      <point x="1887.351765848011" y="616.0" />
+      <point x="2773.351765848011" y="616.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.strategy.movement.HorizontalMovementStrategy" relationship="DEPENDENCY">
+      <point x="90.75" y="-15.5" />
+      <point x="2864.101765848011" y="331.0" />
+      <point x="4427.833333333334" y="331.0" />
+      <point x="4427.833333333334" y="321.0" />
+      <point x="4675.833333333334" y="321.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-84.75" y="-15.5" />
+      <point x="2307.108128673356" y="941.0" />
+      <point x="2785.664265848011" y="941.0" />
+      <point x="2785.664265848011" y="566.0" />
+      <point x="2955.414265848011" y="566.0" />
+      <point x="2955.414265848011" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.ball.Ball" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2576.351765848011" y="1051.0" />
+      <point x="218.0" y="1051.0" />
+      <point x="218.0" y="1896.0" />
+      <point x="166.0" y="1896.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="18.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-29.375" y="-15.5" />
+      <point x="2639.233128673356" y="1091.0" />
+      <point x="3074.664265848011" y="1091.0" />
+      <point x="3074.664265848011" y="971.0" />
+      <point x="3222.8894705079883" y="971.0" />
+      <point x="3222.8894705079883" y="626.0" />
+      <point x="2034.6706286733563" y="626.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.NullStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1197.8333333333335" y="1256.0" />
+      <point x="1197.8333333333335" y="1151.0" />
+      <point x="436.08729534002305" y="1151.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.collision.DefaultInteractionStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="894.5833333333335" y="1246.0" />
+      <point x="894.5833333333335" y="991.0" />
+      <point x="1052.851765848011" y="991.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="117.0" y="-15.5" />
+      <point x="5141.233128673357" y="1011.0" />
+      <point x="5540.645833333334" y="1011.0" />
+      <point x="5540.645833333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2668.608128673356" y="1246.0" />
+      <point x="2842.039265848011" y="1246.0" />
+      <point x="2842.039265848011" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="28.25" y="-15.5" />
+      <point x="2420.108128673356" y="1101.0" />
+      <point x="2940.733128673356" y="1101.0" />
+      <point x="2940.733128673356" y="981.0" />
+      <point x="2971.914265848011" y="981.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="-118.5" y="-15.5" />
+      <point x="3662.170628673356" y="1161.0" />
+      <point x="4083.4519705079883" y="1161.0" />
+      <point x="4083.4519705079883" y="801.0" />
+      <point x="2971.914265848011" y="801.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4922.833333333334" y="1021.0" />
+      <point x="5637.645833333334" y="1021.0" />
+      <point x="5637.645833333334" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2153.358128673356" y="1276.0" />
+      <point x="2513.039265848011" y="1276.0" />
+      <point x="2513.039265848011" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.BallWorldStore" relationship="DEPENDENCY">
+      <point x="28.25" y="15.5" />
+      <point x="672.5" y="1761.0" />
+      <point x="626.25" y="1761.0" />
+      <point x="626.25" y="1811.0" />
+      <point x="558.7083333333335" y="1811.0" />
+      <point x="558.7083333333335" y="1821.0" />
+      <point x="789.4166666666667" y="1821.0" />
+      <point x="-48.33333333333326" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.RotateMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="53.5" y="-15.5" />
+      <point x="4436.170628673357" y="951.0" />
+      <point x="5206.895833333334" y="951.0" />
+      <point x="5206.895833333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.CommandFac" target="edu.rice.comp504.model.cmd.ICmdFac" relationship="REALIZATION">
+      <point x="46.0" y="-15.5" />
+      <point x="1470.4583333333335" y="1656.0" />
+      <point x="1517.2083333333335" y="1656.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1416.0" />
+      <point x="4702.733128673357" y="1416.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.BlinkingStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1256.0" />
+      <point x="1667.8333333333335" y="1256.0" />
+      <point x="1667.8333333333335" y="1061.0" />
+      <point x="2276.851765848011" y="1061.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.BlinkingStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="38.25" y="-15.5" />
+      <point x="2315.101765848011" y="656.0" />
+      <point x="2549.351765848011" y="656.0" />
+      <point x="2549.351765848011" y="536.0" />
+      <point x="2773.351765848011" y="536.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.HorizontalMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="59.5" y="-15.5" />
+      <point x="4735.333333333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DefaultInteractionStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="TO_ONE">
+      <point x="54.0" y="-15.5" />
+      <point x="1106.851765848011" y="606.0" />
+      <point x="2044.6706286733563" y="606.0" />
+      <point x="2044.6706286733563" y="416.0" />
+      <point x="2088.337295340023" y="416.0" />
+      <point x="53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementSizeChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4702.733128673357" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="30.25" y="-15.5" />
+      <point x="2803.601765848011" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="32.5" y="-15.5" />
+      <point x="1873.6706286733563" y="1151.0" />
+      <point x="2367.670628673356" y="1151.0" />
+      <point x="2367.670628673356" y="971.0" />
+      <point x="2971.914265848011" y="971.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1051.0" />
+      <point x="2576.351765848011" y="1051.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1071.0" />
+      <point x="2087.351765848011" y="1071.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="62.0" y="-15.5" />
+      <point x="2149.351765848011" y="676.0" />
+      <point x="2527.351765848011" y="676.0" />
+      <point x="2527.351765848011" y="526.0" />
+      <point x="2773.351765848011" y="526.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.strategy.CollisionStrategyFac" relationship="TO_ONE">
+      <point x="48.33333333333326" y="-15.5" />
+      <point x="886.0833333333333" y="1821.0" />
+      <point x="1434.3478038413216" y="1821.0" />
+      <point x="1434.3478038413216" y="1801.0" />
+      <point x="1315.7083333333335" y="1801.0" />
+      <point x="1315.7083333333335" y="1521.0" />
+      <point x="1057.6666666666667" y="1521.0" />
+      <point x="59.33333333333334" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="114.0" y="1161.0" />
+      <point x="92.0" y="1161.0" />
+      <point x="92.0" y="92.0" />
+      <point x="1093.6706286733563" y="92.0" />
+      <point x="1093.6706286733563" y="82.0" />
+      <point x="1949.0456286733563" y="82.0" />
+      <point x="-40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.SwitchBallCmd" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="35.75" y="-15.5" />
+      <point x="1719.9583333333335" y="1551.0" />
+      <point x="2502.039265848011" y="1551.0" />
+      <point x="2502.039265848011" y="1541.0" />
+      <point x="2447.539265848011" y="1541.0" />
+      <point x="2447.539265848011" y="1356.0" />
+      <point x="2796.608128673356" y="1356.0" />
+      <point x="2796.608128673356" y="1011.0" />
+      <point x="3528.8180363140173" y="1011.0" />
+      <point x="3528.8180363140173" y="206.0" />
+      <point x="1332.5833333333333" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="REALIZATION">
+      <point x="-50.25" y="-15.5" />
+      <point x="2921.664265848011" y="686.0" />
+      <point x="3080.289265848011" y="686.0" />
+      <point x="3080.289265848011" y="426.0" />
+      <point x="2034.6706286733563" y="426.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="28.25" y="15.5" />
+      <point x="672.5" y="1761.0" />
+      <point x="626.25" y="1761.0" />
+      <point x="626.25" y="1781.0" />
+      <point x="922.625" y="1781.0" />
+      <point x="922.625" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="4188.833333333334" y="1031.0" />
+      <point x="5378.170628673357" y="1031.0" />
+      <point x="5378.170628673357" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.common.BlinkingStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1246.0" />
+      <point x="964.8333333333335" y="1061.0" />
+      <point x="2276.851765848011" y="1061.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.ICmdFac" target="edu.rice.comp504.model.cmd.IBallCmd" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="1517.2083333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1551.0" />
+      <point x="1485.4583333333335" y="1521.0" />
+      <point x="1489.764470507988" y="1521.0" />
+      <point x="26.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1336.0" />
+      <point x="2668.608128673356" y="1336.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" target="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" relationship="DEPENDENCY">
+      <point x="44.0" y="-15.5" />
+      <point x="2620.351765848011" y="636.0" />
+      <point x="2641.851765848011" y="636.0" />
+      <point x="2641.851765848011" y="546.0" />
+      <point x="2773.351765848011" y="546.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="4188.833333333334" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.NullStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="42.66666666666697" y="-15.5" />
+      <point x="478.75396200669" y="686.0" />
+      <point x="447.08729534002305" y="686.0" />
+      <point x="447.08729534002305" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.UpdateBallCmd" target="edu.rice.comp504.model.cmd.IBallCmd" relationship="REALIZATION">
+      <point x="37.25" y="-15.5" />
+      <point x="1188.3333333333335" y="1541.0" />
+      <point x="1365.2083333333335" y="1541.0" />
+      <point x="1365.2083333333335" y="1521.0" />
+      <point x="1436.764470507988" y="1521.0" />
+      <point x="-26.5" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.ICollisionStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="-53.66666666666697" y="15.5" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="21.0" y="676.0" />
+      <point x="20.999999999999545" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="20.999999999999545" y="1990.0" />
+      <point x="21.0" y="676.0" />
+      <point x="907.2956286733565" y="676.0" />
+      <point x="907.2956286733565" y="446.0" />
+      <point x="1981.0039620066893" y="446.0" />
+      <point x="-53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="TO_ONE">
+      <point x="44.33333333333337" y="-15.5" />
+      <point x="2880.0978038413214" y="2010.0" />
+      <point x="5648.895833333334" y="2010.0" />
+      <point x="5648.895833333334" y="196.0" />
+      <point x="4866.108128673357" y="196.0" />
+      <point x="4866.108128673357" y="176.0" />
+      <point x="3284.039265848011" y="176.0" />
+      <point x="57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-28.25" y="-15.5" />
+      <point x="2363.608128673356" y="1111.0" />
+      <point x="2857.733128673356" y="1111.0" />
+      <point x="2857.733128673356" y="941.0" />
+      <point x="2822.414265848011" y="941.0" />
+      <point x="2822.414265848011" y="576.0" />
+      <point x="2977.414265848011" y="576.0" />
+      <point x="2977.414265848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.strategy.ICollisionStrategy" relationship="TO_ONE">
+      <point x="44.33333333333337" y="-15.5" />
+      <point x="2880.0978038413214" y="2010.0" />
+      <point x="5648.895833333334" y="2010.0" />
+      <point x="5648.895833333334" y="606.0" />
+      <point x="2044.6706286733565" y="606.0" />
+      <point x="2044.6706286733563" y="416.0" />
+      <point x="2088.337295340023" y="416.0" />
+      <point x="53.66666666666697" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="29.375" y="-15.5" />
+      <point x="2697.983128673356" y="1081.0" />
+      <point x="3167.858128673356" y="1081.0" />
+      <point x="3167.858128673356" y="811.0" />
+      <point x="2971.914265848011" y="811.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.APaintObject" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="5637.895833333334" y="1990.0" />
+      <point x="5637.895833333334" y="206.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="-57.75" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.IUpdateStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="-57.75" y="15.5" />
+      <point x="3168.539265848011" y="186.0" />
+      <point x="1332.5833333333335" y="186.0" />
+      <point x="1332.5833333333335" y="206.0" />
+      <point x="5637.895833333334" y="206.0" />
+      <point x="5637.895833333334" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.ball.Ball" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="114.0" y="1436.0" />
+      <point x="133.75" y="1436.0" />
+      <point x="133.75" y="1896.0" />
+      <point x="166.0" y="1896.0" />
+      <point x="166.0" y="1916.0" />
+      <point x="144.01447050798788" y="1916.0" />
+      <point x="18.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.cmd.CommandFac" target="edu.rice.comp504.model.cmd.UpdateBallCmd" relationship="CREATE">
+      <point x="-46.0" y="-15.5" />
+      <point x="1378.4583333333335" y="1686.0" />
+      <point x="1337.7083333333335" y="1686.0" />
+      <point x="1337.7083333333335" y="1636.0" />
+      <point x="1188.3333333333335" y="1636.0" />
+      <point x="37.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.IStrategyFac" relationship="REALIZATION">
+      <point x="44.5" y="-15.5" />
+      <point x="1042.8333333333335" y="1266.0" />
+      <point x="1039.3333333333335" y="1266.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2971.914265848011" y="1041.0" />
+      <point x="5378.170628673357" y="1041.0" />
+      <point x="5378.170628673357" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Image" target="edu.rice.comp504.model.ball.APaintObject" relationship="GENERALIZATION">
+      <point x="-30.0" y="15.5" />
+      <point x="750.0833333333335" y="1646.0" />
+      <point x="10.0" y="1646.0" />
+      <point x="10.0" y="2000.0" />
+      <point x="5.0" y="2000.0" />
+      <point x="5.0" y="2010.0" />
+      <point x="2791.431137174655" y="2010.0" />
+      <point x="-44.33333333333337" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-55.0" y="-15.5" />
+      <point x="59.0" y="1141.0" />
+      <point x="81.0" y="1141.0" />
+      <point x="81.0" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.CollisionStrategyFac" target="edu.rice.comp504.model.strategy.collision.DestroyerStrategy" relationship="DEPENDENCY">
+      <point x="-44.5" y="-15.5" />
+      <point x="953.8333333333335" y="1266.0" />
+      <point x="114.0" y="1266.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.UpdateStrategyFac" target="edu.rice.comp504.model.strategy.common.ColorSizeVelocityChangeStrategy" relationship="DEPENDENCY">
+      <point x="42.5" y="-15.5" />
+      <point x="1347.764470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1436.0" />
+      <point x="1925.014470507988" y="1246.0" />
+      <point x="1841.1706286733563" y="1246.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.NullObject" target="edu.rice.comp504.model.ball.APaintObject" relationship="GENERALIZATION">
+      <point x="-39.0" y="15.5" />
+      <point x="529.8333333333335" y="1636.0" />
+      <point x="0.0" y="1636.0" />
+      <point x="0.0" y="2000.0" />
+      <point x="5.0" y="2000.0" />
+      <point x="5.0" y="2010.0" />
+      <point x="2791.431137174655" y="2010.0" />
+      <point x="-44.33333333333337" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.BounceMovementVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="CREATE">
+      <point x="39.5" y="-15.5" />
+      <point x="3820.170628673356" y="871.0" />
+      <point x="4308.333333333334" y="871.0" />
+      <point x="4308.333333333334" y="216.0" />
+      <point x="4855.108128673357" y="216.0" />
+      <point x="4855.108128673357" y="186.0" />
+      <point x="3245.539265848011" y="186.0" />
+      <point x="19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.IUpdateStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3226.289265848011" y="72.0" />
+      <point x="2034.6706286733563" y="72.0" />
+      <point x="2034.6706286733563" y="62.0" />
+      <point x="2002.5456286733563" y="62.0" />
+      <point x="13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.ObjectFac" target="edu.rice.comp504.model.ball.Ball" relationship="CREATE">
+      <point x="-28.25" y="15.5" />
+      <point x="616.0" y="1801.0" />
+      <point x="96.0" y="1801.0" />
+      <point x="96.0" y="1916.0" />
+      <point x="108.01447050798788" y="1916.0" />
+      <point x="-18.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.ColorSizeChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="TO_ONE">
+      <point x="-79.125" y="-15.5" />
+      <point x="2074.233128673356" y="911.0" />
+      <point x="2466.851765848011" y="911.0" />
+      <point x="2466.851765848011" y="506.0" />
+      <point x="2581.851765848011" y="506.0" />
+      <point x="2581.851765848011" y="102.0" />
+      <point x="1943.6706286733563" y="102.0" />
+      <point x="1943.6706286733563" y="72.0" />
+      <point x="1975.7956286733563" y="72.0" />
+      <point x="-13.375" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.VelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="REALIZATION">
+      <point x="-50.25" y="-15.5" />
+      <point x="2921.664265848011" y="686.0" />
+      <point x="3080.289265848011" y="686.0" />
+      <point x="3080.289265848011" y="596.0" />
+      <point x="3119.414265848011" y="596.0" />
+      <point x="3119.414265848011" y="226.0" />
+      <point x="3207.039265848011" y="226.0" />
+      <point x="-19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="837.75" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.strategy.IUpdateStrategy" relationship="CREATE">
+      <point x="-30.25" y="-15.5" />
+      <point x="2743.101765848011" y="331.0" />
+      <point x="2792.601765848011" y="331.0" />
+      <point x="2792.601765848011" y="216.0" />
+      <point x="4855.108128673357" y="216.0" />
+      <point x="4855.108128673357" y="186.0" />
+      <point x="3245.539265848011" y="186.0" />
+      <point x="19.25" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.CompositeMovementStrategy" target="edu.rice.comp504.model.strategy.movement.VerticalMovementStrategy" relationship="DEPENDENCY">
+      <point x="90.75" y="-15.5" />
+      <point x="2864.101765848011" y="331.0" />
+      <point x="4427.833333333334" y="331.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.ball.APaintObject" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="2391.858128673356" y="1266.0" />
+      <point x="2632.289265848011" y="1266.0" />
+      <point x="2632.289265848011" y="1990.0" />
+      <point x="2835.7644705079883" y="1990.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.BallWorldStore" target="edu.rice.comp504.model.strategy.CollisionStrategyFac" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="837.75" y="1821.0" />
+      <point x="875.875" y="1821.0" />
+      <point x="875.875" y="1811.0" />
+      <point x="998.3333333333335" y="1811.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.common.SizeVelocityChangeStrategy" target="edu.rice.comp504.model.strategy.IStrategy" relationship="CREATE">
+      <point x="84.75" y="-15.5" />
+      <point x="2476.608128673356" y="951.0" />
+      <point x="2849.914265848011" y="951.0" />
+      <point x="2849.914265848011" y="586.0" />
+      <point x="2988.414265848011" y="586.0" />
+      <point x="2988.414265848011" y="82.0" />
+      <point x="3021.983128673356" y="82.0" />
+      <point x="3021.983128673356" y="52.0" />
+      <point x="2029.2956286733563" y="52.0" />
+      <point x="40.125" y="15.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.movement.ZigzagMovementColorChangeStrategy" target="edu.rice.comp504.model.strategy.common.SizeChangeStrategy" relationship="DEPENDENCY">
+      <point x="-111.375" y="-15.5" />
+      <point x="3995.795628673356" y="1151.0" />
+      <point x="4470.451970507988" y="1151.0" />
+      <point x="4470.451970507988" y="791.0" />
+      <point x="2576.351765848011" y="791.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3536503362151779" showDependencies="true" x="2195.8685318484304" y="589.4621757435825" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
